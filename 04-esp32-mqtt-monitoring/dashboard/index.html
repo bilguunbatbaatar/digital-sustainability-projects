@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ESP32 MQTT Dashboard</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>ESP32 MQTT Dashboard</h1>
+      <p class="sub">DHT11 sensor · team1</p>
+    </div>
+    <form id="connForm" class="conn">
+      <label>Broker
+        <input id="host" value="localhost" size="14">
+      </label>
+      <label>WS port
+        <input id="port" value="9001" size="5">
+      </label>
+      <button type="submit" id="connBtn">Холбогдох</button>
+      <span id="status" class="status off"><i></i><b>Салгагдсан</b></span>
+    </form>
+  </header>
+
+  <main>
+    <section class="tiles">
+      <article class="tile">
+        <h2>Температур</h2>
+        <p class="value"><span id="tempVal">--</span><small>°C</small></p>
+        <p class="meta">min <span id="tempMin">--</span> · max <span id="tempMax">--</span></p>
+      </article>
+      <article class="tile">
+        <h2>Чийгшил</h2>
+        <p class="value"><span id="humVal">--</span><small>%</small></p>
+        <p class="meta">min <span id="humMin">--</span> · max <span id="humMax">--</span></p>
+      </article>
+      <article class="tile">
+        <h2>LED (GPIO2)</h2>
+        <p class="value"><span id="ledVal" class="led off">--</span></p>
+        <div class="btns">
+          <button id="ledOn" disabled>ON</button>
+          <button id="ledOff" disabled>OFF</button>
+        </div>
+      </article>
+      <article class="tile">
+        <h2>Мессеж</h2>
+        <p class="value"><span id="msgCount">0</span></p>
+        <p class="meta">Сүүлд: <span id="lastTime">--</span></p>
+      </article>
+    </section>
+
+    <section class="charts">
+      <article class="card">
+        <h2>Температур, °C</h2>
+        <div class="plot"><canvas id="tempChart"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Чийгшил, %</h2>
+        <div class="plot"><canvas id="humChart"></canvas></div>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Сүүлийн мессежүүд</h2>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Цаг</th><th>Topic</th><th>Payload</th></tr></thead>
+          <tbody id="log"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="lib/mqtt.min.js"></script>
+  <script src="lib/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

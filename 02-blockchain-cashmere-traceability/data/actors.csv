@@ -1,0 +1,35 @@
+actor_id,name,role,aimag,certified
+HRD-001,Малчин 01,HERDER,Баянхонгор,True
+HRD-002,Малчин 02,HERDER,Говь-Алтай,False
+HRD-003,Малчин 03,HERDER,Өвөрхангай,False
+HRD-004,Малчин 04,HERDER,Дундговь,True
+HRD-005,Малчин 05,HERDER,Сүхбаатар,True
+HRD-006,Малчин 06,HERDER,Ховд,False
+HRD-007,Малчин 07,HERDER,Завхан,True
+HRD-008,Малчин 08,HERDER,Өмнөговь,False
+HRD-009,Малчин 09,HERDER,Баянхонгор,False
+HRD-010,Малчин 10,HERDER,Говь-Алтай,True
+HRD-011,Малчин 11,HERDER,Өвөрхангай,True
+HRD-012,Малчин 12,HERDER,Дундговь,True
+HRD-013,Малчин 13,HERDER,Сүхбаатар,True
+HRD-014,Малчин 14,HERDER,Ховд,True
+HRD-015,Малчин 15,HERDER,Завхан,True
+HRD-016,Малчин 16,HERDER,Өмнөговь,True
+HRD-017,Малчин 17,HERDER,Баянхонгор,False
+HRD-018,Малчин 18,HERDER,Говь-Алтай,False
+HRD-019,Малчин 19,HERDER,Өвөрхангай,True
+HRD-020,Малчин 20,HERDER,Дундговь,False
+HRD-021,Малчин 21,HERDER,Сүхбаатар,True
+HRD-022,Малчин 22,HERDER,Ховд,True
+HRD-023,Малчин 23,HERDER,Завхан,True
+HRD-024,Малчин 24,HERDER,Өмнөговь,True
+COL-01,Хоршоо 1,COLLECTOR,Баянхонгор,True
+COL-02,Хоршоо 2,COLLECTOR,Өвөрхангай,True
+COL-03,Хоршоо 3,COLLECTOR,Дундговь,True
+COL-04,Хоршоо 4,COLLECTOR,Ховд,True
+COL-05,Хоршоо 5,COLLECTOR,Сүхбаатар,True
+PRC-01,Боловсруулах үйлдвэр 1,PROCESSOR,Улаанбаатар,True
+PRC-02,Боловсруулах үйлдвэр 2,PROCESSOR,Улаанбаатар,True
+PRC-03,Боловсруулах үйлдвэр 3,PROCESSOR,Улаанбаатар,True
+EXP-01,Экспортлогч 1,EXPORTER,Улаанбаатар,True
+EXP-02,Экспортлогч 2,EXPORTER,Улаанбаатар,True

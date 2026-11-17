@@ -1,0 +1,6 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.tif
+*.tiff
+03-iot-anomaly-detection/co2-regression/data/

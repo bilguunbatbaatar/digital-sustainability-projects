@@ -1,0 +1,58 @@
+{
+  "dpp_version": "0.1-lab",
+  "product": "Ялгасан ноолуур (dehaired cashmere)",
+  "batch_id": "MNC-2026-001",
+  "origin": {
+    "aimag": "Өвөрхангай",
+    "herder_certified": true
+  },
+  "final_qty_kg": 82.1,
+  "carbon_kgCO2e_per_kg": 7.34,
+  "chain_of_custody": [
+    {
+      "stage": "HARVEST",
+      "actor": "Малчин 11",
+      "aimag": "Өвөрхангай",
+      "timestamp": "2026-03-03T09:00:00",
+      "qty_kg": 163.9,
+      "block": 1,
+      "event_hash": "a7b30073a64145209ffeafdf06654c65335cc8a2911f268f3255bee037c85871",
+      "merkle_root": "120de9aeecdc7987f8d14d2ff0d0065696cc886e89d486d70331c7a07e33f35d",
+      "proof_ok": true
+    },
+    {
+      "stage": "COLLECT",
+      "actor": "Хоршоо 3",
+      "aimag": "Өвөрхангай",
+      "timestamp": "2026-03-09T09:00:00",
+      "qty_kg": 162.1,
+      "block": 2,
+      "event_hash": "6b4b737c6c1833dc2e01add5d7d2314256461f2f1785bccf7f9a8f3f581cf29e",
+      "merkle_root": "2e8f2fde93b0ffaaa2f9724b203e3223b88d633b9f2bc70401166b8370bd9692",
+      "proof_ok": true
+    },
+    {
+      "stage": "PROCESS",
+      "actor": "Боловсруулах үйлдвэр 2",
+      "aimag": "Улаанбаатар",
+      "timestamp": "2026-03-17T09:00:00",
+      "qty_kg": 82.6,
+      "block": 4,
+      "event_hash": "1c513d726198fee8a850fa906c5a449c71bf2adc1432b0db101a3f102ebeb0bb",
+      "merkle_root": "11748d0f0975894a6ac130ef3754a6c1accdf63d8c16eefb13afdfede5c65cad",
+      "proof_ok": true
+    },
+    {
+      "stage": "EXPORT",
+      "actor": "Экспортлогч 1",
+      "aimag": "Улаанбаатар",
+      "timestamp": "2026-03-20T09:00:00",
+      "qty_kg": 82.1,
+      "block": 6,
+      "event_hash": "60fc78c4a03a0920d300634af6c4ef5bf03fee95b9d9d23afa8bdaf86adf4efd",
+      "merkle_root": "d51a97cacdfced897b7a3ec92a17612eeaa41f40d144ce14b5eb7f694f219747",
+      "proof_ok": true
+    }
+  ],
+  "all_proofs_valid": true
+}
